@@ -1,4 +1,3 @@
-//console.log("dev");
 
 // #Primitive Datatypes
 //number -> 2 to power 53
@@ -9,6 +8,7 @@
 //undefined
 //symbol => Unique identifier for components(used in React)
  //const id = Symbol('123') 
+
 
 // #Reference(Non primitive) Datatypes
 //object
@@ -26,3 +26,8 @@
 
 // }
 // abc();
+
+/***************************/
+
+//Stack Memory => Primitive(Copy)
+//Heap Memory   => Non primitive(Reference)
