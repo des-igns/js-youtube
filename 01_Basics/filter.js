@@ -69,4 +69,33 @@ const books = [
 
 
 //Reduce
+// const myNums = [1,2,3]
 
+// const newNums = myNums.reduce( function(acc, currval){
+//     console.log(`acc ${acc} and Currval is ${currval}`)
+//     return acc + currval
+// },0)
+
+// console.log(newNums);
+
+const items = [
+    {
+        itemName: "Data Science",
+        price: 12999
+    },
+    {
+        itemName: "Web Development",
+        price: 3999
+    },
+    {
+        itemName: "Mobile Development",
+        price: 5999
+    },
+    {
+        itemName: "Android Development",
+        price: 7999
+    }
+]
+
+const newNums = items.reduce((acc,item) => acc + item.price,0)
+console.log(newNums)
